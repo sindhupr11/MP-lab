@@ -6,6 +6,7 @@ start:
     mov c,m
     dcr c
     inx h
+
 loop: 
     mov a,m 
     inx h 
@@ -18,6 +19,7 @@ loop:
     mov m,b 
     inx h 
     mvi d,01 
+    
 skip: 
     dcr c
     jnz loop
